@@ -62,11 +62,11 @@ button{
 Click me
 </div>
 <div id="panel">
-Hi howdy!!!
+Hi how do you do!!!
 </div>
 <p>
 <div style="height:40px;width:40px;background-color:red;border-radius:25px;color:green;position:relative" id="y">
-<pre>Woohoo</pre>
+<pre>Hey!!!</pre>
 </div>
 </p>
 <hr width="100%" height="4px" color="blue" align="center" />
@@ -86,7 +86,7 @@ click
 <br>
 </h3>
 <hr width="100%" height="4px" color="lightblue" align="center" />
-<img src="C:\Users\ravi\Documents\notepad++\swamp-nature.jpg" alt="Swamp" style="display:none;width:1325px" id="z">
+<img src="C:\Users\ravi\Documents\notepad++\swamp-nature.jpg" alt="jungle-wet" style="display:none;width:1325px" id="z">
 </img>
 </center>
 </body>
