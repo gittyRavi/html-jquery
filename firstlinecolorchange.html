@@ -1,0 +1,52 @@
+<HTML>
+<HEAD><p class="t">First . Line</p>
+<TITLE>First Line</TITLE>
+<Style type="text/CSS">
+	.t{color : Blue;}
+	p{	-webkit-animation: my 5s infinite; /* Chrome, Opera, and Safari */
+		animation: my 5s infinite; /* Standard syntax */
+		background-color:red;
+	  }
+	  
+		@-webkit-keyframes my				/* Chrome, Opera, and Safari */
+		{
+		from {background-color: red;}
+		to {background-color: yellow;}
+		}
+		
+		@keyframes my						/* Standard syntax */
+		{
+		from {background-color: red;}
+		to {background-color: yellow;}
+		}      
+		
+	H1{background-color:pink;}
+	
+	body{
+		-webkit-animation: mymove 5s infinite; /* Chrome, Opera, and Safari */
+		animation: mymove 5s infinite; /* Standard syntax */
+		background-color: blue;
+		}
+ 
+		@-webkit-keyframes mymove 				/* Chrome, Opera, and Safari */
+		{
+		from {background-color: blue;}
+		to {background-color: yellow;}
+		}
+		
+		@keyframes mymove						/* Standard syntax */
+		{
+		from {background-color: blue;}
+		to {background-color: yellow;}
+		}       
+</Style>
+<link rel="stylesheet" type="text/CSS" href="C:\Users\ravi\Documents\notepad++\mystyle.css">
+</HEAD>
+<BODY><H1 class="class1">Hello!!</H1>
+<H1>
+<?php
+	echo " Hello World!!";
+?>
+</H1>
+</BODY>
+</HTML>
