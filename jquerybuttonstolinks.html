@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+    $('#id1').click(function() {
+      window.location = "http://www.google.com";
+      return false;
+    });				                                    /* or use document.location or document.location.href in place of windows.location */
+	  $('#id2').click(function() {
+      window.location = "http://www.bing.com";
+      return false;
+    });
+});
+
+</script>
+</head>
+<body>
+
+<h2><center>Button(s)</center></h2>
+
+<center><p>How to make a button redirect to another page using jQuery</p>
+<p>Goto the following search engine(s):</p></center>
+
+<pre align="center"><button id="id1">Google</button>  <button id="id2">Bing</button></pre>        /* for chrome browser not IE */
+
+</body>
+</html>
